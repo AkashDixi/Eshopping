@@ -1,0 +1,13 @@
+.flex-all-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn
+{
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Zeyada&display=swap');
+:root {
+    --main-bg-color: rgb(44, 42, 165);
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    width: 100vw;
+    
+    
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 0 50px;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+}
+nav ul li {
+    list-style: none;
+    padding: 0px 10px;
+    
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+nav ul li a:hover{
+    color: rgb(226, 43, 43);
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.search input{
+    height: 20px;
+    width: 30vw;
+    border-radius: 8px;
+    margin: 0px 15px; 
+    
+}
+.container{
+    min-height: calc(100vh - 50px - 12vh)
+
+}
+.slider{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+   overflow: hidden;
+}
+.card{
+    max-width: 95vw;
+    margin: auto;
+    display: flex;
+    
+}
+.card-item
+{
+    width: 9vw;
+    padding: 0 10px;
+
+}
+h2{
+    margin: 15px 0;
+    text-align: center;
+    
+}
+.centre
+{
+    text-align: center;
+}
+
+footer{
+    
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Playfair Display', serif;
+    width: 100vw;
+    margin-top: auto;
+    
+    
+
+}
